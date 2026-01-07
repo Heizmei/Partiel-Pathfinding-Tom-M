@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tmarot\epreuve\AStarExam\out\binaries\CMakeFiles\097511d688b7df5295085d4bbf9d154c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{75B5CD50-6EBA-345D-946B-3F03023D9C84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\TMAROT\EPREUVE\ASTAREXAM\OUT\BINARIES\CMAKEFILES\097511D688B7DF5295085D4BBF9D154C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tmarot/epreuve/AStarExam -BC:/Users/tmarot/epreuve/AStarExam/out/binaries --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tmarot/epreuve/AStarExam/out/binaries/AStarExam.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
